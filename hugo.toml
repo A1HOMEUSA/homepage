@@ -1,4 +1,4 @@
-baseURL = "http://a1home-usa.com"
+baseURL = "https://a1homeusa.github.io/"
 languageCode = "en-us"
 title = "Real Estate and Mortgage Broker"
 theme = "mediumish-gohugo-theme"
