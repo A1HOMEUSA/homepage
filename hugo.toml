@@ -1,0 +1,49 @@
+baseURL = "http://a1home-usa.com"
+languageCode = "en-us"
+title = "Real Estate and Mortgage Broker"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Amy Guan - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/logo.png"
+  description =""
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Amy Guan"
+  thumbnail = "/images/author.png"
+  description = "A professional real estate broker with over 22 years of experience in the Bay Area"
+
+[params.index]
+  picture = "/images/author.png"
+  title = "Amy Guan"
+  subtitle = "A professional real estate broker with over 22 years of experience in the Bay Area"
+  mdtext = '''
+##### Focus on real estate selling, buying, mortgage, properties management, and investment
+'''
+  alertbar = false
+
+[params.social]
+  email = "bbbguan@yahoo.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Homepage"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
+[[menu.main]]
+    name = ""
+    identifier = "imprint"
+    weight = 200
+    url = "/static/imprint"
